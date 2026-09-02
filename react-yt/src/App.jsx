@@ -1,30 +1,99 @@
-
 import React from 'react'
-import { Route, Routes } from 'react-router-dom'
-// import { Route, Routes } from 'react-router-dom'
-import About from './pages/About';
-import Home from './pages/Home';
+import Header from './components/Header'
+import Section from './components/Section'
+import Footer from './components/Footer'
 
-import Contact from './pages/Contact';
-
-import Product from './pages/Product';
-
- const App = () => {
+const App = () => {
+  const data = useContext(DataContext)
+  console.log(data)
   return (
     <div>
-      <Routes>
-        <Route path='/home' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/contact' element={<Contact />} />
-         <Route path='/product' element={<Product />} />
-
-      </Routes>
-    
+      <h1>This is App.js</h1>
+      <Header />
+      <Section />
+      <Footer />
     </div>
   )
 }
 
 export default App
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import React from 'react'
+// import { Route, Routes } from 'react-router-dom'
+// import About from './pages/About';
+// import Home from './pages/Home';
+
+// import Contact from './pages/Contact';
+
+// import Product from './pages/Product';
+// import Header from './components/Header';
+
+//  const App = () => {
+//   return (
+//     <div>
+//       <Header/>
+//       <Routes>
+//         <Route path='/home' element={<Home />} />
+//         <Route path='/about' element={<About />} />
+//         <Route path='/contact' element={<Contact />} />
+//          <Route path='/product' element={<Product />} />
+
+//       </Routes>
+    
+//     </div>
+//   )
+// }
+
+// export default App
 
 
 
