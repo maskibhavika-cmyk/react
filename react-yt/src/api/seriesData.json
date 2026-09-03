@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Stranger Things",
+    "id": "stranger-things",
+    "img_url": "https://placehold.co/400x500/111111/FFFFFF?text=Stranger+Things",
+    "rating": "8.7",
+    "description": "A group of friends discovers supernatural mysteries in their small town.",
+    "cast": ["Millie Bobby Brown", "Finn Wolfhard", "Noah Schnapp"],
+    "genre": ["Sci-Fi", "Horror", "Drama"],
+    "watch_url": "https://www.netflix.com/title/80057281"
+  },
+  {
+    "name": "Wednesday",
+    "id": "wednesday",
+    "img_url": "https://placehold.co/400x500/222222/FFFFFF?text=Wednesday",
+    "rating": "8.1",
+    "description": "Wednesday Addams investigates strange mysteries at Nevermore Academy.",
+    "cast": ["Jenna Ortega", "Emma Myers", "Hunter Doohan"],
+    "genre": ["Mystery", "Comedy", "Fantasy"],
+    "watch_url": "https://www.netflix.com/title/81231974"
+  },
+  {
+    "name": "Squid Game",
+    "id": "squid-game",
+    "img_url": "https://placehold.co/400x500/333333/FFFFFF?text=Squid+Game",
+    "rating": "8.0",
+    "description": "Hundreds of players compete in deadly children's games for a huge prize.",
+    "cast": ["Lee Jung-jae", "Park Hae-soo", "Wi Ha-joon"],
+    "genre": ["Action", "Drama", "Mystery"],
+    "watch_url": "https://www.netflix.com/title/81040344"
+  },
+  {
+    "name": "Money Heist",
+    "id": "money-heist",
+    "img_url": "https://placehold.co/400x500/444444/FFFFFF?text=Money+Heist",
+    "rating": "8.2",
+    "description": "A criminal mastermind plans the biggest robbery in Spain's history.",
+    "cast": ["Alvaro Morte", "Ursula Corbero", "Itziar Ituno"],
+    "genre": ["Crime", "Thriller", "Drama"],
+    "watch_url": "https://www.netflix.com/title/80192098"
+  },
+  {
+    "name": "Queen of Tears",
+    "id": "queen-of-tears",
+    "img_url": "https://placehold.co/400x500/555555/FFFFFF?text=Queen+of+Tears",
+    "rating": "8.4",
+    "description": "A gripping tale of love, loss, and resilience between a married couple.",
+    "cast": ["Kim Soo Hyun", "Kim Ji Won", "Park Sung Hoon"],
+    "genre": ["Drama", "Romance"],
+    "watch_url": "https://www.viki.com/tv/41545c-queen-of-tears"
+  }
+]

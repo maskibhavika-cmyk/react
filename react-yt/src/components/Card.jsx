@@ -16,3 +16,28 @@
 // }
 
 // export default Card
+const Card = ({ series }) => {
+  return (
+    <div className="card">
+
+      <img
+        src={series.img_url}
+        alt={series.name}
+        width="200"
+      />
+
+      <h2>{series.name}</h2>
+
+      <p>Rating: {series.rating}</p>
+
+      <p>{series.description}</p>
+
+      <p>
+        Genre: {series.genre.join(", ")}
+      </p>
+
+    </div>
+  );
+};
+
+export default Card;

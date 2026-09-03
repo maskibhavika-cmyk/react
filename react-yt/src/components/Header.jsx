@@ -1,15 +1,12 @@
-import React from 'react'
-
 const Header = () => {
   return (
-    <div>
-      <h1>Header</h1>
-    </div>
-  )
-}
+    <header>
+      <h1>Netflix Series</h1>
+    </header>
+  );
+};
 
-export default Header
-
+export default Header;
 // import React from 'react'
 // import {Link} from 'react-router-dom'
 // const Header = () => {

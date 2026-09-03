@@ -1,17 +1,12 @@
-    import React from 'react'
-    
     const Footer = () => {
-      return(
-        <div>
-            <h1>Footer</h1>
-        </div>
-      )
-      
-    }
-    
-    export default Footer
-    
-    
+  return (
+    <footer>
+      <h2>Netflix Footer</h2>
+    </footer>
+  );
+};
+
+export default Footer;
     
     // import React from 'react'
 

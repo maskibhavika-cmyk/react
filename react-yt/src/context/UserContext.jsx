@@ -1,18 +1,32 @@
-import React from 'react'
- export const DataContext = CreateContext()
+// import React, { createContext } from 'react'
 
-const UserContext = ({children}) => {
+// export const DataContext = createContext()
 
-    console.log(props.children)
-}
-    const username = "bhavika"
+// const UserContext = ({ children }) => {
+
+//   const username = "bhavika"
+
+//   return (
+//     <DataContext.Provider value={username}>
+//       {children}
+//     </DataContext.Provider>
+//   )
+// }
+
+// export default UserContext
+import { createContext } from "react";
+
+export const DataContext = createContext();
+
+const UserContext = ({ children }) => {
+
+  const username = "bhavika";
+
   return (
-    <div>
-        {/* <DataContext.Provider value={username}>
-            {children}
-        </DataContext.Provider>
-     */}
-    </div>
-  )
+    <DataContext.Provider value={username}>
+      {children}
+    </DataContext.Provider>
+  );
+};
 
-export default UserContext
+export default UserContext;
