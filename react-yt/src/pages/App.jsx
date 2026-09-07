@@ -1,17 +1,13 @@
-import Header from "../components/Header";
-import NetflixSeries from "../components/NetflixSeries";
-import Footer from "../components/Footer";
+// import React from "react";
+// import NetflixSeries from "./components/NetflixSeries";
+// import "./components/Netflix.css";
+//  export const App = () => {
+//   return (
+//   <section className="container">
+//     <h1 className="card-heading">List of Best Netflix Series</h1>
+//     <NetflixSeries />
+//   </section>
+//   );
+// };
 
-const App = () => {
-  return (
-    <>
-      <Header />
-
-      <NetflixSeries />
-
-      <Footer />
-    </>
-  );
-};
-
-export default App;
+// export default App;
