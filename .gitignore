@@ -12,3 +12,15 @@
 
 # Editor files
 .vscode/
+# Local practice / extra files
+my-project/
+package.json
+react-yt/my-project/
+react-yt/postcss.config.js
+react-yt/src/components/EV.css
+react-yt/src/components/EventHandling.jsx
+react-yt/src/components/EventPropagation.jsx
+react-yt/src/components/EventProps.jsx
+react-yt/src/components/Netflix.css
+react-yt/src/components/Netflix.module.css
+react-yt/tailwind.config.js
