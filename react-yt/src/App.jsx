@@ -18,16 +18,56 @@
 
 // export default App
 
+// import React from "react";
+// import NetflixSeries from "./components/NetflixSeries";
+
+// const App = () => {
+//   return (
+//     <div>
+//       <NetflixSeries />
+//     </div>
+//   );
+// };
+
+// export default App;
+
+
+// import NetflixSeries from "./components/NetflixSeries";
+// // import "./components/Netflix.css";
+// import "./components/Netflix.module.css";
+//  export const App = () => {
+//   return (
+//   <section className="container">
+//     <h1 className="card-heading">List of Best Netflix Series</h1>
+//     <NetflixSeries />
+//   </section>
+//   );
+// };
+
+// export default App;
 
 
 
+// import { EventHandling } from "./components/EventHandling";
+// import "./components/EventHandling";
+import "./components/Netflix.module.css";
+import {EventProps} from "./components/EventProps";
+export const App = () => {
+  return (
+    <section className="container">
+      {/* <h1 className="card-heading">
+        List of Best Netflix Series
+      </h1>
 
+      <NetflixSeries />; */}
+      {/* <EventHandling/> */}
+      <EventProps />
 
+    </section>
+  );
+};
 
-
-
-
-
+export default App;
 
 
 
