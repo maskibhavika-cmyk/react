@@ -50,62 +50,25 @@
 
 // import { EventHandling } from "./components/EventHandling";
 // import "./components/EventHandling";
-import "./components/Netflix.module.css";
-import {EventProps} from "./components/EventProps";
-export const App = () => {
-  return (
-    <section className="container">
-      {/* <h1 className="card-heading">
-        List of Best Netflix Series
-      </h1>
+// import "./components/Netflix.module.css";
+// // import {EventProps} from "./components/EventProps";
+// import { EventPropagation } from "./components/EventPropagation";
+// export const App = () => {
+//   return (
+//     <section className="container">
+//       {/* <h1 className="card-heading">
+//         List of Best Netflix Series
+//       </h1>
 
-      <NetflixSeries />; */}
-      {/* <EventHandling/> */}
-      <EventProps />
+//       <NetflixSeries />; */}
+//       {/* <EventHandling/> */}
+//       {/* <EventProps /> */}
+// <EventPropagation/>
+//     </section>
+//   );
+// };
 
-    </section>
-  );
-};
-
-export default App;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// export default App;
 
 // import React from 'react'
 // import { Route, Routes } from 'react-router-dom'
@@ -134,23 +97,6 @@ export default App;
 // }
 
 // export default App
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // import axios from 'axios'
 // import React, { useEffect, useState } from 'react'
@@ -187,117 +133,6 @@ export default App;
 // }
 
 // export default App
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // import React from 'react'
 // import Card from './components/Card'
@@ -362,62 +197,6 @@ export default App;
 // export default App
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // // import React from 'react'
 // // import Card from './components/Card'
 // // import Header from './components/Header';
@@ -455,133 +234,6 @@ export default App;
 // // }
 
 // // export default App
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // import { useState } from 'react'
 // import heroImg from './assets/hero.png'
@@ -705,3 +357,25 @@ export default App;
 // }
 
 // export default App
+import { DerivedState } from "./components/DericedState";
+import "./components/EV.css";
+// import { State } from "./components/hooks/State";
+
+export const App = () => {
+  return (
+    <section classsName="container">
+      <DerivedState />
+      {/* <State /> */}
+      {/* // <Sibling /> */}
+    // </section>
+  )
+}
+// export  function Sibling() {
+//         console.log("Sibling Component rendered");
+//         return(
+//             <div className="main-div">
+//                <h2>Sibling Component- {count}</h2>
+     
+//             </div>
+//         );
+//     }
