@@ -359,15 +359,17 @@
 // export default App
 
 
+import { ToggleSwitch } from "../../projects/ToggleSwitch/ToggleSwitch";
 import "./components/EV.css";
-import { LiftingState } from "./components/LiftStateUp";
+// import { LiftingState } from "./components/LiftStateUp";
 // import { State } from "./components/hooks/State";
 
 export const App = () => {
   return (
     <section classsName="container">
-    <LiftingState />
+    {/* <LiftingState /> */}
       {/* <State /> */}
+      <ToggleSwitch />
       {/* // <Sibling /> */}
      </section>
   )
