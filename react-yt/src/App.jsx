@@ -359,21 +359,27 @@
 // export default App
 
 
-import { ToggleSwitch } from "./projects/ToggleSwitch/ToggleSwitch";
+// import { ToggleSwitch } from "./projects/ToggleSwitch/ToggleSwitch";
 import "./components/EV.css";
+import { Todo } from "./projects/ToggleSwitch/Todo/Todo";
+export const App = () => {
+return <section>{<Todo />}</section>
+};
 // import { LiftingState } from "./components/LiftStateUp";
 // import { State } from "./components/hooks/State";
 
-export const App = () => {
-  return (
-    <section classsName="container">
-    {/* <LiftingState /> */}
-      {/* <State /> */}
-      <ToggleSwitch />
-      {/* // <Sibling /> */}
-     </section>
-  )
-}
+
+//    return (
+//      <section classsName="container">
+//      {/* <LiftingState /> */}
+//        {/* <State /> */}
+//     <ToggleSwitch />
+//       {/* // <Sibling /> */}
+//      </section>
+//   )
+// }
+
+
 export default App;
 // export  function Sibling() {
 //         console.log("Sibling Component rendered");

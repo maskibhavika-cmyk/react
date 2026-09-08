@@ -1,0 +1,176 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  background-color: #001b20;
+  font-family: Arial, sans-serif;
+}
+
+.todo-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 45px;
+}
+
+.todo-container h1 {
+  color: white;
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+
+.form form {
+  display: flex;
+  align-items: center;
+}
+
+.todo-input {
+  width: 230px;
+  height: 48px;
+  padding: 0 18px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 25px 0 0 25px;
+}
+
+.todo-input::placeholder {
+  color: #777;
+}
+
+.todo-btn {
+  height: 48px;
+  padding: 0 20px;
+  border: none;
+  background-color: #4dabf7;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0 25px 25px 0;
+} */
+
+
+.todo-container{
+  min-height: 100vh;
+  background: #02141b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+  font-family: sans-serif;
+}
+
+.todo-container header h1{
+  color: #ffffff;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  letter-spacing: 0.5px;
+}
+
+
+.form form{
+  display: flex;
+  align-items: center;
+  background: #ececec;
+  border-radius: 30px;
+  overflow: hidden;
+  width: 400px;
+  height: 48px;
+}
+
+.form form div{
+  display: flex;
+  height: 100%;
+}
+
+.form form div:first-child{
+  flex: 1;
+}
+
+.todo-input{
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 0 20px;
+  font-size: 17px;
+  color: #333;
+}
+
+.todo-btn{
+  border: none;
+  background: #5cabff;
+  color: white;
+  padding: 0 22px;
+  height: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+.myUnOrdList{
+  margin-top: 40px;
+}
+
+.myUnOrdList ul{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.todo-item{
+  width: 400px;
+  background: #f0f0f0;
+  border-radius: 30px;
+  padding: 10px 14px 10px 22px;
+  display: flex;
+  align-items: center;
+  color: #4a4a4a;
+  font-size: 17px;
+}
+
+.todo-item span{
+  flex: 1; 
+}
+
+
+.check-btn{
+  background: #2ecc71; 
+  color: white;
+  border: none;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.delete-btn{
+  background: #ff3b30; 
+  color: white;
+  border: none;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 20px;
+  cursor: pointer;
+}
