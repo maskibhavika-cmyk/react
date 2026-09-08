@@ -357,7 +357,9 @@
 // }
 
 // export default App
-import { DerivedState } from "./components/DericedState";
+
+
+import { DerivedState } from "./components/DerivedState";
 import "./components/EV.css";
 // import { State } from "./components/hooks/State";
 
@@ -370,6 +372,7 @@ export const App = () => {
     // </section>
   )
 }
+export default App;
 // export  function Sibling() {
 //         console.log("Sibling Component rendered");
 //         return(
