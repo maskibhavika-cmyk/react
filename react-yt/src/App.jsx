@@ -359,17 +359,17 @@
 // export default App
 
 
-import { DerivedState } from "./components/DerivedState";
 import "./components/EV.css";
+import { LiftingState } from "./components/LiftStateUp";
 // import { State } from "./components/hooks/State";
 
 export const App = () => {
   return (
     <section classsName="container">
-      <DerivedState />
+    <LiftingState />
       {/* <State /> */}
       {/* // <Sibling /> */}
-    // </section>
+     </section>
   )
 }
 export default App;
