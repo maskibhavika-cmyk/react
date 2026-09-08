@@ -174,3 +174,12 @@ body {
   font-size: 20px;
   cursor: pointer;
 }
+.date-time{
+  color: #cbd5e1; /* light grey taaki dark bg pe dikhe */
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: -15px; /* Todo List ke thoda paas laane ke liye */
+  margin-bottom: 25px;
+  letter-spacing: 0.5px;
+}
