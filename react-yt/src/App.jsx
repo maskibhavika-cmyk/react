@@ -359,7 +359,7 @@
 // export default App
 
 
-import { ToggleSwitch } from "../../projects/ToggleSwitch/ToggleSwitch";
+import { ToggleSwitch } from "./projects/ToggleSwitch/ToggleSwitch";
 import "./components/EV.css";
 // import { LiftingState } from "./components/LiftStateUp";
 // import { State } from "./components/hooks/State";
