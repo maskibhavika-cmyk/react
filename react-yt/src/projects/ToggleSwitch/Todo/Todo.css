@@ -183,3 +183,9 @@ body {
   margin-bottom: 25px;
   letter-spacing: 0.5px;
 }
+.checkList{
+  text-decoration: line-through;
+}
+.notCheckList{
+  text-decoration: none;
+}
