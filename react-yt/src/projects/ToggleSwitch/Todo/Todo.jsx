@@ -4,10 +4,17 @@ import "./Todo.css";
 import { TodoForm } from "./TodoForm";
 import { TodoList } from "./TodoList";
 import { TodoDate } from "./TodoDate";
+import { getLocalStorageTodoData, setLocalStorageTodoData } from "./TodoLocalStorage";
+
+
 
 export const Todo = () => {
+
     // const [inputValue, setInputValue] = useState("");
-    const [task, setTask] = useState(["apple", "mango", "orange"]);
+    const [task, setTask] = useState(() =>getLocalStorageTodoData())
+
+    
+    
    
     // const handleInputChange = (value) => {
     //     setInputValue(value);
@@ -33,6 +40,8 @@ export const Todo = () => {
         ]);
        
     };
+    // todo add data to localStorage
+    setLocalStorageTodoData(task);
 
     // const handleDeleteTodo = (valueToDelete) => {
     //     setTask(task.filter((curTask) => curTask !== valueToDelete));
