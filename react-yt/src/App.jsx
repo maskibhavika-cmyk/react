@@ -3,6 +3,7 @@
 // import Section from './components/Section'
 // import Footer from './components/Footer'
 
+
 // const App = () => {
 //   const data = useContext(DataContext)
 //   console.log(data)
@@ -397,11 +398,15 @@
   
 // }
 
-import ShortCircuitExample from "./components/ShortCircuit";
+// import ShortCircuitExample from "./components/ShortCircuit";
 
-function App() {
-    return <ShortCircuitExample />;
+//     return <ShortCircuitExample />;
+// }
+
+import { Counter } from "./components/hooks/useState.jsx";
+
+export const App = () => {
+  return <Counter />
 }
 
 export default App;
-

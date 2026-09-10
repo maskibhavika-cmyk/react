@@ -5,7 +5,7 @@ const ShortCircuitExample = ()  => {
     const[user,setUser] =useState("");
     return(
         <section className="container short-container">
-            <h1>Welcome to the ShortCircuit Evaluation!</h1>
+            <h1>Welcome to the ShortCircuit Evaluation!</h1> 
 
            {isLoggedIn && <p>You are logged in!</p>}
            
