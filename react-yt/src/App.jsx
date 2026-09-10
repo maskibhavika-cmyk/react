@@ -403,10 +403,10 @@
 //     return <ShortCircuitExample />;
 // }
 
-import { Counter } from "./components/hooks/useState.jsx";
 
+import CounterChallenge from "./components/hooks/useState.jsx/Challenge";
 export const App = () => {
-  return <Counter />
+  return <CounterChallenge />
 }
 
 export default App;
