@@ -360,11 +360,7 @@
 
 
 // import { ToggleSwitch } from "./projects/ToggleSwitch/ToggleSwitch";
-import "./components/EV.css";
-import { Todo } from "./projects/ToggleSwitch/Todo/Todo";
-export const App = () => {
-return <section>{<Todo />}</section>
-};
+
 // import { LiftingState } from "./components/LiftStateUp";
 // import { State } from "./components/hooks/State";
 
@@ -379,8 +375,6 @@ return <section>{<Todo />}</section>
 //   )
 // }
 
-
-export default App;
 // export  function Sibling() {
 //         console.log("Sibling Component rendered");
 //         return(
@@ -390,3 +384,24 @@ export default App;
 //             </div>
 //         );
 //     }
+
+
+// import "./components/EV.css";r
+// // // import "./App.css"
+// // import "./components/hooks/Hooks.css";
+// // // import { Keys } from "./Keys"
+// import ShortCircuitExample from "./components/ShortCircuit";
+
+// export const App=()=> {
+//   return<section>{ <ShortCircuitExample/>}</section>
+  
+// }
+
+import ShortCircuitExample from "./components/ShortCircuit";
+
+function App() {
+    return <ShortCircuitExample />;
+}
+
+export default App;
+

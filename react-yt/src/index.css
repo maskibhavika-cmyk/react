@@ -18,8 +18,7 @@ h1{
 
 }
 
- */
-/* 
+ 
 * {
   margin: 0;
   padding: 0;
@@ -66,7 +65,7 @@ header {
 }
 
 
-/* *{
+*{
   margin:0;
   padding:0;
 box-sizing: border-box;
@@ -83,8 +82,8 @@ button{
 }
 h2{
   background-color: crimson;
-/* } */ 
-/* *{
+/* } 
+ *{
   margin:0;
   padding: 0;
   box-sizing: border-box;
@@ -155,8 +154,8 @@ a {
 
 .grid-three--cols {
   grid-template-columns: repeat(3, 1fr)
-} */
-/* * {
+} 
+  * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -193,7 +192,7 @@ a {
   text-decoration: none;
 }
 
-/* Container */
+
 
 .container {
   max-width: 1400px;
@@ -201,7 +200,7 @@ a {
   padding: 50px 30px;
 }
 
-/* Heading */
+
 
 .card-heading {
   font-size: 3.5rem;
@@ -209,7 +208,7 @@ a {
   text-align: center;
 }
 
-/* Grid */
+
 
 .grid {
   display: grid;
@@ -220,7 +219,7 @@ a {
   grid-template-columns: repeat(3, 1fr);
 }
 
-/* Card */
+
 
 .card {
   list-style: none;
@@ -235,7 +234,7 @@ a {
   transform: translateY(-5px);
 }
 
-/* Image */
+
 
 .card-img {
   width: 100%;
@@ -244,7 +243,6 @@ a {
   display: block;
 }
 
-/* Card Content */
 
 .card-content {
   padding: 20px;
@@ -261,14 +259,14 @@ a {
   margin-bottom: 12px;
 }
 
-/* Rating */
+
 
 .rating {
   color: #087443 !important;
   font-weight: 600;
 }
 
-/* Watch Button */
+
 
 .watch-btn {
   display: inline-block;
@@ -284,7 +282,7 @@ a {
   background-color: #45b87d;
 }
 
-/* Responsive */
+
 
 @media (max-width: 900px) {
   .grid-three--cols {
@@ -301,153 +299,3 @@ a {
     font-size: 2.8rem;
   }
 } */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #ffffff;
-  color: #000000;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #000000;
-}
-
-p,
-li,
-a {
-  font-size: 1.6rem;
-  line-height: 1.5;
-}
-
-a {
-  text-decoration: none;
-}
-
-/* CONTAINER */
-
-.container {
-  max-width: 142rem;
-  margin: 0 auto;
-  padding: 5rem 2.4rem;
-}
-
-/* HEADING */
-
-.card-heading {
-  font-size: 3.2rem;
-  text-align: center;
-  margin-bottom: 4rem;
-}
-
-/* GRID */
-
-.grid {
-  display: grid;
-  gap: 5rem;
-}
-
-.grid-three--cols {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-/* CARD */
-
-.card {
-  list-style: none;
-  background-color: #ffffff;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
-}
-
-/* IMAGE */
-
-.card-img {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-  display: block;
-}
-
-/* CARD CONTENT */
-
-.card-content {
-  padding: 2rem;
-}
-
-.card-content h2 {
-  font-size: 2.2rem;
-  margin-bottom: 1.2rem;
-}
-
-/* PARAGRAPH */
-
-.card-content p {
-  font-size: 1.5rem;
-  color: #555555;
-  margin-bottom: 1.2rem;
-}
-
-/* LABEL - Summary, Genre, Cast */
-
-.label {
-  text-decoration: underline;
-  color: #333333;
-}
-
-/* RATING */
-
-.rating {
-  color: #008000 !important;
-  font-weight: 600;
-}
-
-/* BUTTON */
-
-.watch-btn {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 1rem 1.8rem;
-  background-color: #75d3a3;
-  color: #ffffff;
-  border-radius: 4px;
-  font-size: 1.5rem;
-}
-
-/* BUTTON HOVER */
-
-.watch-btn:hover {
-  background-color: #45b87d;
-}
-.summary {
-  text-decoration: underline;
-}
-
-/* RESPONSIVE */
-
-@media (max-width: 900px) {
-  .grid-three--cols {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 600px) {
-  .grid-three--cols {
-    grid-template-columns: 1fr;
-  }
-  
-}
